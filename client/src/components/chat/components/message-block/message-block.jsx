@@ -1,5 +1,6 @@
-import React, {useState} from 'react';
+import {useState} from 'react';
 import styles from './styles.module.css';
+
 
 const MessageBlock = ({socket}) => {
     const [message, setMessage] = useState('');
@@ -11,7 +12,7 @@ const MessageBlock = ({socket}) => {
             socket.emit('message', {
                 text: message,
                 name: localStorage.getItem('user'),
-                id: `${socket.id}`,
+                id: `${socket.id}-${Math.random()}`,
                 socketID: socket.id
             })
         }

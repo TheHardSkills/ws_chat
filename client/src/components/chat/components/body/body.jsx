@@ -19,7 +19,7 @@ const Body = ({messages}) => {
                 {
                     messages.map(element =>
                         localStorage.getItem('user') === element.name ? (
-                            <div className={styles.chat}>
+                            <div className={styles.chat} key={element.id}>
                                 <p className={styles.senderName}> You: </p>
                                 <div className={styles.messageSender}>
                                     <p>{element.text}</p>
