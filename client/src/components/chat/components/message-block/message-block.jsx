@@ -27,7 +27,7 @@ const MessageBlock = ({socket}) => {
                     value={message}
                     onChange={(event) => setMessage(event.target.value)}
                 />
-                <button className={styles.bttn}>Send</button>
+                <button className={styles.button}>Send</button>
             </form>
         </div>
     );

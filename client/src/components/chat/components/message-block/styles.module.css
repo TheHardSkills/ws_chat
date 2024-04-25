@@ -1,7 +1,7 @@
 .messageBlock{
     padding: 20px;
     height: 10vh;
-    background-color: #c6e7c6;
+    background-color: #dcfbdc;
 }
 
 .form {
@@ -19,10 +19,11 @@
     border: 1px solid #ddd;
     outline: none;
     padding: 15px;
-    background-color: #979f97;
+    background-color: #b6e8b6;
+    color: #355c9a;
 }
 
-.bttn{
+.button{
     width: 150px;
     background-color: green;
     padding: 10px;
@@ -32,6 +33,6 @@
     cursor: pointer;
 }
 
-.bttn:hover {
+.button:hover {
     background-color: rgb(129, 201, 129);
 }
