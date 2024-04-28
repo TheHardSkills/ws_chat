@@ -7,9 +7,6 @@ const Body = ({messages}) => {
 
     return (
         <>
-            {/*<header className={styles.header}>*/}
-            {/*</header>*/}
-
             <div className={styles.container}>
                 {
                     messages.map(element =>
@@ -30,9 +27,6 @@ const Body = ({messages}) => {
                             )
                         )
                 }
-
-
-
             </div>
         </>
     );
